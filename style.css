@@ -1,3 +1,47 @@
 body {
-    padding-top: 10px;
-  }
+  padding-top: 10px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.logo {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  margin-bottom: 2.5em;
+}
+.slogan {
+  /* color: #BF5700; */
+  font-size: larger;
+  font-weight: 500;
+}
+#slogan {
+  color: #BF5700;
+  padding-bottom: .2em;
+}
+#subslogan {
+  font-style: italic;
+  padding-bottom: .3em;
+}
+.menuimg {
+  object-fit: cover;
+  width: 5em;
+  height: auto;
+  width: 100%;
+}
+.menulabel {
+  text-align: left;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+.price {
+  margin: auto;
+  font-size: large;
+}
+.orderbutton {
+  vertical-align: bottom;
+  background-color:#bed5f8;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 32%;
+}
